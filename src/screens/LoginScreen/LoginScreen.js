@@ -24,7 +24,7 @@ export default function LoginScreen({navigation}) {
   
    if(email=='' ||  password=='') {
 
-    alert('Please enter all the values');
+    alert('Please enter all the values for login');
   }
 else{
   navigation.navigate('HomeScreen');

@@ -35,7 +35,7 @@ export default function RegistrationScreen({navigation}) {
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .then((response) => {
-        console.log('hiii')
+        console.log('entry')
         const uid = response.user.id;
         const data = {
           id: uid,
@@ -125,7 +125,7 @@ export default function RegistrationScreen({navigation}) {
         </TouchableOpacity>
         <View style={styles.footerView}>
           <Text style={styles.footerText}>
-            Already got an account?{' '}
+            Already have an account?{' '}
             <Text onPress={onFooterLinkPress} style={styles.footerLink}>
               Log in
             </Text>
