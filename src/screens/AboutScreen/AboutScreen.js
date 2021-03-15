@@ -16,6 +16,6 @@ const styles=StyleSheet.create({
   footerLink: {
     color:"#788eec",
     fontWeight:"bold",
-    fontSize: 15
+    fontSize: 16
   }
 })
