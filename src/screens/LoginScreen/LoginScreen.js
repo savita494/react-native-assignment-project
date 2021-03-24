@@ -16,7 +16,7 @@ export default function LoginScreen({navigation}) {
 
 
   const onFooterLinkPress = () => {
-  navigation.navigate('RegistrationScreen');
+  navigation.navigate('Registration');
   
  };
 
@@ -27,7 +27,7 @@ export default function LoginScreen({navigation}) {
     alert('Please enter all the values for login');
   }
 else{
-  navigation.navigate('HomeScreen');
+  navigation.navigate('Home');
 }
  };
 
