@@ -47,18 +47,14 @@ export default function HomeScreen({navigation}) {
       <View>
       <Text  style={styles.about} onPress={() => onAboutPress()}>About</Text>
       <Text  style={styles.about} onPress={() => onLogOutPress()}>LogOut</Text>
-      <View style={styles.containers}>
-    <ImageBackground source={image} style={styles.image}>
-      <Text style={styles.text}>Inside</Text>
-    </ImageBackground>
-  </View>
+      
     </View> 
-          <Button   style={styles.buttongl} onPress={onGLPressed}>
+          <Text   style={styles.buttongl} onPress={onGLPressed}>
         GeoLocation
-      </Button>
-       <Button  style={styles.buttonimg} onPress={onIMPPressed}>
+      </Text>
+       <Text  style={styles.buttonimg} onPress={onIMPPressed}>
         Image Picker
-      </Button>
+      </Text>
     <View style={styles.screen}>
       
       

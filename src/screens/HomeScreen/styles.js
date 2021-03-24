@@ -6,7 +6,7 @@ export default StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'grey',
+    backgroundColor: 'cyan',
     height: 600
  },  
  containers: {
@@ -40,11 +40,18 @@ export default StyleSheet.create({
         width: '100%',
         marginVertical: 10,
         paddingVertical: 2,
+        fontWeight: "bold",
+        textAlign:'center',
+        color: "blue"
       },
       buttongl: {
         width: '100%',
     marginVertical: 10,
     paddingVertical: 2,
+    fontWeight: "bold",
+    textAlign:'center',
+     color: "blue"
+
       },
 
 })
