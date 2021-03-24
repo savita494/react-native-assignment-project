@@ -18,7 +18,7 @@ export default About = () => {
             color: 'green',
             textAlign: 'center',
             paddingBottom: 10,
-          }}>This is About Page
+          }}>This is About Page  For Info
 
         </Text>
         
